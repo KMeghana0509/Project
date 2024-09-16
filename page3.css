@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-image: url(tm-astro-bg.jpg);
+}
+#tiles_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P_title{
+    font-size: 50px;
+}
+.navlinks{
+    margin-right: 50px;
+}
+.navlinks a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.circle hr{
+    display: inline-block;
+    width: 60px;
+}
+.circle span{
+    background-color: white;
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+}
+.circle{
+    margin-left: 45px;
+}
+li{
+    list-style-type: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+.nav-item1 .selected-item{
+    color: green;
+}
+.nav-item1 hr{
+    border: 1px solid green;
+}
+.nav-item1 span{
+    background-color: green;
+}
+#body_lines span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+section{
+    margin-top: 40px;
+}
+#body_lines{
+    text-align: center;
+    margin-left: 410px;
+}
+#body_lines hr{
+    display: inline-block;
+    width: 670px;
+}
+.p-body{
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.203);
+    padding: 20px;
+    margin-left: 520px;
+}

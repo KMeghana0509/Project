@@ -1,0 +1,95 @@
+body{
+    color: white;
+    background-image: url(tm-astro-bg.jpg);
+}
+#tiles_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P_title{
+    font-size: 50px;
+}
+.navlinks{
+    margin-right: 50px;
+}
+.navlinks a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.circle hr{
+    display: inline-block;
+    width: 60px;
+}
+.circle span{
+    background-color: white;
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+}
+.circle{
+    margin-left: 45px;
+}
+li{
+    list-style-type: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+.nav-item1 .selected-item{
+    color: green;
+}
+.nav-item1 hr{
+    border: 1px solid green;
+}
+.nav-item1 span{
+    background-color: green;
+}
+.Gallery_line{
+    text-align: center;
+    margin-top: 80px;
+}
+.Gallery_line hr{
+    display: inline-block;
+    width: 900px;
+}
+.Gallery_line span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+.Gallery_images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Gallery_images img{
+    height: 200px;
+    width: 130px;
+}
+.circles span{
+    display: inline-block;
+    margin: 5px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+.circles{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.circle1 span{
+    background-color: rgb(80, 183, 223);
+}

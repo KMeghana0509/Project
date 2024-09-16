@@ -1,0 +1,93 @@
+body{
+    color: white;
+    background-image: url(tm-astro-bg.jpg);
+}
+#tiles_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.P_title{
+    font-size: 50px;
+}
+.navlinks{
+    margin-right: 50px;
+}
+.navlinks a{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 30px;
+    color: white;
+}
+.circle hr{
+    display: inline-block;
+    width: 60px;
+}
+.circle span{
+    background-color: white;
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+}
+.circle{
+    margin-left: 45px;
+}
+li{
+    list-style-type: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+}
+ul{
+    display: flex;
+    justify-content: end;
+}
+.nav-item1 .selected-item{
+    color: green;
+}
+.nav-item1 hr{
+    border: 1px solid green;
+}
+.nav-item1 span{
+    background-color: green;
+}
+#body_lines span{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.leftside{
+    margin-top: 100px;
+
+}
+input[type="text"], input[type="email"], input[type="textarea"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 300px;
+}
+input[type="textarea"]{
+    height: 80px;
+}
+iframe{
+    width: 350px;
+    height: 150px;
+}
+.rightside{
+    width: 300px;
+    margin-top: 50px;
+}
+button{
+    margin-top: 20px;
+    float: right;
+    width: 50px;
+    height: 30px;
+}
